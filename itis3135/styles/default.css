@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&family=Bungee+Shade&family=Silkscreen&display=swap');
+body{
+    background-color: beige;
+    font-family:  'Anybody', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+header,h2, h1{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+#formheading{
+    text-align: center;
+}
+
+table,
+td {
+    border: 1px solid #333;
+    
+}
+
+thead,tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+table tr:nth-child(even){
+    background-color: darkgray;
+}
+
+a
+{
+    text-decoration: none;
+    color: dimgray;
+}
+
+#Introduction,.Photo, #contactdetails{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+ #profphoto {
+    text-align: center;
+    border-radius: 50%;
+    height: 250px;
+}    
+
+.twlogo, #twlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    background-image: none;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+#overview{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a:hover{
+    color: black;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    
+}
+
+fieldset{
+    border: none;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    
+}
+
+input{
+    width: 100%;
+    background-color: burlywood;
+    border: 1px solid;
+}
+
+.inline{
+    width: unset;
+}
+
+#Submit:hover,#Reset:hover{
+    color: white;
+}
+
