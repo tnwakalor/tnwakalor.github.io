@@ -87,7 +87,8 @@ fieldset{
 input{
     width: 100%;
     background-color: burlywood;
-    border: 1px solid;
+    border: 1px solid beige;
+    min-height: 15px;
 }
 
 .inline{
@@ -98,3 +99,9 @@ input{
     color: white;
 }
 
+input[type="submit"], input[type="reset"] {
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: 'Silkscreen', cursive;
+    border-color: white;
+  }
