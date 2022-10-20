@@ -12,7 +12,7 @@ header,h2, h1{
     font-family: 'Silkscreen', cursive;
 }
 
-#formheading{
+#formheading, #home-intro{
     text-align: center;
 }
 
@@ -106,7 +106,7 @@ input[type="submit"], input[type="reset"] {
     border-color: white;
   }
 
-  #canva-profile, #Introduction{
+  #canva-profile, #Introduction, .evaluation{
     margin-left: 100px;
     margin-right: 100px;
   }
