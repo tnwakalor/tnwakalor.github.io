@@ -106,7 +106,8 @@ input[type="submit"], input[type="reset"] {
     border-color: white;
   }
 
-  #canva-profile, #Introduction, .evaluation{
+  #canva-profile, #Introduction, .evaluation, #Table, #TabularData{
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
   }
