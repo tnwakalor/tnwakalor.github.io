@@ -21,22 +21,32 @@
         </nav>
     </header>
       <main>
-        <h2>Home</h2>
-    
-        <div id="home-intro">
-            <p>
-                Welcome to my website! Feel free to analyze this site based off of the C.R.A.P principles!
-            </p>
-            <p>
-                A form to turn in your critique will be added onto this website in later updates.
-            </p>
-            <p>
-                Thank you for your time.
-            </p>
+        <h2>SCRIPTS</h2>
+        <div id="scripts">
+        <h3>Current date and time is : <span id="date-time"></span></h3>
         </div>
+        <div>
+            <form>
+                <fieldset>
+                    <label for="full-name">Enter your Name:
+                        <input id="full-name" type="text">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="feeling">How are you feeling?
+                        <input id="feeling" name="feeling" type="text" >
+                    </label>
+                    <input id="submit" type="submit" value="Submit" onclick="scriptTest()">
+
+                    <p id="demo">Loading...</p>
+                </fieldset>
+            </form>
+        </div>
+    
+        
         
        </main>
-    
+    <script src="scripts/defaultscripts.js"></script>
     <footer>
         <nav>
             <a href="https://www.linkedin.com/in/tochukwu-nwakalor" target="_blank">LinkedIn ||</a>
