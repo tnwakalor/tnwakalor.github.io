@@ -1,6 +1,7 @@
 function scriptTest(){
-     var name = document.getElementById("full-name");
+     var name = document.getElementById("full-name").innerHTML;
      document.getElementById("demo").innerHTML = "Hello, " + name;
+     
 }
 
 var dt = new Date();
@@ -12,4 +13,4 @@ function refreshTime() {
     const formattedString = dateString.replace(", ", " - ");
     timeDisplay.textContent = formattedString;
   }
-    setInterval(refreshTime, 1000);
+  setInterval(refreshTime, 1000);

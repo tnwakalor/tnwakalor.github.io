@@ -25,20 +25,20 @@
         <div id="scripts">
         <h3>Current date and time is : <span id="date-time"></span></h3>
         </div>
-        <div>
+        <div id="first-query">
             <form>
                 <fieldset>
                     <label for="full-name">Enter your Name:
-                        <input id="full-name" type="text">
+                        <input id="full-name" name="full-name" type="text" required>
                     </label>
                     <br>
                     <br>
                     <label for="feeling">How are you feeling?
-                        <input id="feeling" name="feeling" type="text" >
+                        <input id="feeling" name="feeling" type="text">
                     </label>
                     <input id="submit" type="submit" value="Submit" onclick="scriptTest()">
 
-                    <p id="demo">Loading...</p>
+                    <div id="demo"></div>
                 </fieldset>
             </form>
         </div>
