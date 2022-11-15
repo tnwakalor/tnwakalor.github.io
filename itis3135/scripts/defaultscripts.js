@@ -33,6 +33,3 @@ function convertTemp(){
      alert(celsius + " celsius is " + farenheit + " farenheit!");
 }
 
-function generatePolygon(){
-     
-}
