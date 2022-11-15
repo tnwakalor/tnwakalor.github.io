@@ -112,7 +112,45 @@ input[type="submit"], input[type="reset"] {
     margin-bottom: 50px;
   }
 
-  #first-query{
-     margin-left: 100px;
-     margin-right: 500px;
+  #query{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
   }
+
+
+.btn{
+font-family: 'Silkscreen', cursive;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #453333;
+padding: 10px 30px;
+border: solid #542727 2px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 50px;
+
+
+}
+
+.btn:hover{
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #ebdab5;
+color: #453333;
+border: solid 2px #453333;
+
+}
+
+
+

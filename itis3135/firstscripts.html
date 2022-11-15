@@ -6,67 +6,54 @@
         <meta charset="UTF-8">
     </head>
     <body>
-    <header>
-        <h1>ITIS 3135 | Tochukwu Nwakalor</h1>
-        <nav>
-            <a href="index.html">Home ||</a>
-            <a href="introduction.html">Introduction ||</a>
-            <a href="tables.html">Tables ||</a>
-            <a href="courses.html">Courses ||</a>
-            <a href="forms.html">Forms ||</a>
-            <a href="contact.html">Contact ||</a>
-            <a href="firstscripts.html">Scripts ||</a>
-            <a href="website_evaluations.html">Website Evaluations ||</a>
-            <a href="stuff/RAND $$.html">Disabled Webpage</a>
-        </nav>
-    </header>
+        <div data-include="components/header.html"></div>
+        <script src="scripts/HTMLInclude.js"></script>
       <main>
         <h2>SCRIPTS</h2>
         <div id="scripts">
         <h3>Current date and time is : <span id="date-time"></span></h3>
         </div>
-        <div id="first-query">
-            <form>
-                <fieldset>
+        <div>
+            <form id="query">
                     <label for="full-name">Enter your Name:
                         <input id="full-name" name="full-name" type="text" required>
-                    </label>
+                    </label> 
                     <br>
                     <br>
                     <label for="feeling">How are you feeling?
-                        <input id="feeling" name="feeling" type="text">
+                        <input id="feeling" name="feeling" type="text" required>
                     </label>
-                    <input id="submit" type="submit" value="Submit" onclick="scriptTest()">
-
-                    <div id="demo"></div>
-                </fieldset>
+                    <input id="Submit" type="submit" value="Submit" onclick="scriptTest(); return false;">  
+                    <h3 id="demo"></h3>
             </form>
         </div>
+
+        <div> 
+             <button onclick="calculatePets();" class="btn">I WANT PETS!</button>
+        </div>
+
+        <form id="query">
+            <label for="full-name">
+                <input id="full-name" name="full-name" type="text" required>
+            </label> 
+            <br>
+            <br>
+            <label for="feeling">
+                <input id="feeling" name="feeling" type="text" required>
+            </label>
+            <input id="Submit" type="submit" value="Submit" onclick="scriptTest(); return false;">  
+            <h3 id="demo"></h3>
+       </form>
+
+       <div> 
+        <button onclick="convertTemp();" class="btn">CELSIUS TO FARENHEIT CALCULATOR</button>
+       </div>
     
         
         
        </main>
     <script src="scripts/defaultscripts.js"></script>
-    <footer>
-        <nav>
-            <a href="https://www.linkedin.com/in/tochukwu-nwakalor" target="_blank">LinkedIn ||</a>
-            <a href="https://github.com/tnwakalor/tnwakalor.github.io" target="blank">Github ||</a>
-            <a href="https://www.freecodecamp.org/tochinwakalor" target="blank">FreecodeCamp ||</a>
-            <a href="https://www.codecademy.com/profiles/tnwakalor" target="blank">CodeAcademy</a>
-        </nav>
-        <p>
-            Designed by 
-            <a href="tochwayconsulting.com/tochwayconsulting.html"> 
-                Tochway Consulting
-            </a>
-        </p>
-        <a id="validation_link_html" href="https://validator.w3.org/check?uri=referer">
-            <img src="images/one_button_validation_html5.png" alt="html button">
-        </a>
-        
-        <a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer">
-            <img src="images/one_button_validation_css.png" alt="html button">
-        </a>
-    </footer>
+    <div data-include="components/footer.html"></div>
+       <script src="scripts/HTMLInclude.js"></script>
     </body>
 </html>
