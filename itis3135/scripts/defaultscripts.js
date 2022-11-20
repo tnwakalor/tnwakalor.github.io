@@ -33,3 +33,14 @@ function convertTemp(){
      alert(celsius + " celsius is " + farenheit + " farenheit!");
 }
 
+
+function multiplyNum(){
+     const animalArray = ["Dogs", "Cats", "Mice", "Guinea Pigs", "Lizards", "Parrots"];
+     var firstInput = parseInt(document.getElementById("first-num").value);
+     var secondInput = parseInt(document.getElementById("second-num").value);
+     const rando = animalArray[Math.floor(Math.random()*animalArray.length)];
+     
+     product = firstInput * secondInput;
+
+     document.getElementById("demo-two").innerHTML = "We will purchase " + product + " " + rando + "!"; 
+}

@@ -4,6 +4,8 @@
         <title>Tochukwu Nwakalor</title>
         <link href="styles/default.css" rel="stylesheet">
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div data-include="components/header.html"></div>
@@ -33,16 +35,17 @@
         </div>
 
         <form id="query">
-            <label for="full-name">
-                <input id="full-name" name="full-name" type="text" required>
+            <h3>Animal Multiplier</h3>
+            <label for="first-num">
+                <input id="first-num" name="first-num" type="text" required>
             </label> 
             <br>
             <br>
-            <label for="feeling">
-                <input id="feeling" name="feeling" type="text" required>
+            <label for="second-num">
+                <input id="second-num" name="second-num" type="text" required>
             </label>
-            <input id="Submit" type="submit" value="Submit" onclick="scriptTest(); return false;">  
-            <h3 id="demo"></h3>
+            <input id="Submit" type="submit" value="Submit" onclick="multiplyNum(); return false;">  
+            <h3 id="demo-two"></h3>
        </form>
 
        <div> 
