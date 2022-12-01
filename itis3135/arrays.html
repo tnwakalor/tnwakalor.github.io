@@ -12,7 +12,34 @@
         <script src="scripts/HTMLInclude.js"></script>
       <main>
         <h2>ARRAYS</h2>
+        <div id="add-salary">
+            <h3>Add Salary</h3>
+            <label>Enter Name : <input type="text" id="name" required autofocus><br><br><span id="namenull"></span></label> 
+            <br>
+            <br>
+            <label>Enter Salary : <input type="number" id="salary" required><br><br><span id="salarynull"></span></label>
+            <br>
+            <br>
+            <button onclick="addSalary()" class="btn">Add Salary</button>
+        </div>
         
+        <div id="display-salary">
+            <h3>Display Salary</h3>
+            <button onclick="displaySalary()" class="btn">Display Salary</button>
+            <table id="result_table"></table>
+        </div>
+        
+        <div id="display-result">
+            <h3>Display Result</h3>
+            <button onclick="displayResults()" class="btn">Display Result</button>
+            <div id="results"></div>
+        </div>
+        
+        <div id="display-employees">
+            <h3>Display Employees</h3>
+            <button onclick="displayEmployees()" class="btn">Display Employees In Dropdown</button><br>
+            <select id="employees"></select>
+        </div>
         
 
         

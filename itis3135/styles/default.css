@@ -115,7 +115,7 @@ input[type="submit"], input[type="reset"] {
     margin-bottom: 50px;
   }
 
-  #query{
+  #query, #add-salary, #display-salary, #display-result, #display-employees{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
