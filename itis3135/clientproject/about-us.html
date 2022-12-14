@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../clientproject/style/client.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xavo</title>
+</head>
+<body>
+    <div data-include="../clientproject/components/header.html"></div>
+        <script src="../clientproject/scripts/HTMLInclude.js"></script>
+        <main>
+            <h1>About Us</h1>
+            <div id="content">
+                <p>
+                    This project was conducted and executed by Tochway Consulting and client Xavier Collins
+                </p>
+
+                <form>
+                    <label for="q"> We would like to gains some information from you as the user! What was your experience like browsing our website?
+                        <p>
+                        <br>
+                        <textarea id="q" name="q" type="text" cols="40" required> 
+                        </textarea>
+                        </p>
+                    </label>
+                    <br>
+                    <button type="Submit" name="submit" id="submit" class="button-27" onclick="inform(); return false;">Submit</button>
+                    <h3 id="res"></h3>
+                </form>
+            </div>
+           
+
+        </main>
+        <script src="../clientproject/scripts/client.js"></script>
+        <div data-include="../clientproject/components/footer.html"></div>
+        <script src="../clientproject/scripts/HTMLInclude.js"></script>
+    
+    
+</body>
+</html>
