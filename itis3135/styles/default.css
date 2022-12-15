@@ -115,7 +115,7 @@ input[type="submit"], input[type="reset"] {
     margin-bottom: 50px;
   }
 
-  #query, #add-salary, #display-salary, #display-result, #display-employees{
+  #query, #add-salary, #display-salary, #display-result, #display-employees, #peer-rev-one{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
@@ -230,4 +230,12 @@ border: solid 2px #453333;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#ay-web, #xv-web{
+  height: 500px;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
