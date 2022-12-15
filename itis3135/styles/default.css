@@ -209,3 +209,25 @@ border: solid 2px #453333;
   transition: 0.5s ease-in-out;
 }
 
+#slideshow{
+  display: block;
+  text-align: center;
+}
+
+.slides{
+  display: inline-block;
+}
+
+#image{
+  display: flex;
+  margin-right: -500px;
+  margin-left: 550px;
+  margin-bottom: 50px;
+
+}
+
+#image_list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
