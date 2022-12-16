@@ -31,7 +31,7 @@
                 color: dimgray;
             }
 
-            #video{
+            #video, #pic{
                 display: block; 
                 margin: 0 auto;
                 text-align: center;
@@ -43,12 +43,16 @@
                 margin-right: 60px;
             }
 
+            footer{
+                text-align: center;
+                margin-top: 40px;
+            }
 
     </style>
     <script>
         function displayNewPage(target){
                 //collect all pages and make invisible, then make target page visible
-                const collection = document.getElementsByClassName('jump');
+                const collection = document.getElementsByClassName('pages');
 
                 for (let i = 0; i < collection.length; i++) {
                     collection[i].style.display = "none";
@@ -59,7 +63,7 @@
             }
     </script>
 </head>
-<body onload = "displayNewPage('home')">
+<body onload = "displayNewPage('location')">
     <header>
         <h1>Basketball Banquet</h1>
         <nav>
@@ -72,12 +76,16 @@
         </nav>
     </header>
     <main>
-        <section class="jump" id="home">
+        <section class="pages" id="home">
             <h2>Home Page</h2>
             <div id="video">
+                <figure>
                 <iframe width="420" height="315"
                     src="https://www.youtube.com/embed/HeK6Z-OR7gY">
+                
                 </iframe> 
+                <figcaption>My favorite Basketball Player</figcaption>
+                </figure>
             </div>
             <div id="content">
             <p>Welcome to Tochi's Hobby page!</p>
@@ -87,12 +95,71 @@
                 It is a fast-paced and exciting game that requires physical skill, teamwork, and strategy.</p>
             </div>
         </section>
-        <section class="jump" id="about">
+        <section class="pages" id="about">
             <h2>About</h2>
-            <p></p>
+            <figure id="pic">
+                <img src="../images/Professional-Photo.jpg" alt="pic" width="250">
+               <figcaption>Formal Tochi</figcaption>
+            </figure>
+            <div id="content">
+                <p>Basketball became a hobby for me in the 8th grade. I fell in love with the sport after watching kyrie cross people over and making them look silly.</p>
+                <p>It became hobby for me shortly after i started playing.</p>
+                <p>If i was not coding all day and building web pages like this and trying to get a degree in computer science, I would have most definitely tried to make playing basketball a career. </p>
+            </div>
+            
+        </section>
+        <section class="pages" id="best-times">
+            <h2>Best Times</h2>
+            <div id="video">
+            <figure>
+                <iframe src="https://www.youtube.com/embed/uHrELOPiyjE" width="420" height="315"></iframe>
+                <figcaption>The Goat</figcaption>
+            </figure>
+            </div>
+            <div id="content">
+                <p>The best times to play basketball would be any time through out the year.</p>
+                <p>It depends on the weather and location, by this i mean indoor or outdoor. If the winter season is approaching it would be wise to play the sport indoors otherwise outdoor could be played.</p>
+            </div>
+        </section>
+        <section class="pages" id="location">
+            <h2>Location</h2>
+            <figure id="pic">
+                <img src="../images/bbcourt.jpg" alt="pic" width="420" height="315">
+                <figcaption>Outdoor basketball </figcaption>
+            </figure>
+            <div id="content">
+                <p>Basketball can be played in a variety of settings, including in outdoor courts, indoor gyms, and even in your own driveway or backyard. 
+                    Many people enjoy playing basketball as a hobby because it provides a fun and active way to stay fit and healthy.</p>
+            </div>
+        </section>
+        <section class="pages" id="why">
+            <h2>Why Should you play basketball?</h2>
+            <figure>
+                <iframe src="https://www.youtube.com/embed/Bq8gBGx0XTc" width="420" height="315"></iframe>
+                <figcaption>Listen to this guy!</figcaption>
+            </figure>
         </section>
 
     </main>
+    <footer>
+        <p>
+            Designed by 
+            <a href="../tochwayconsulting.com/tochwayconsulting.html"> 
+                Tochway Consulting
+            </a>
+        </p>
+        <a id="validation_link_html" href="https://validator.w3.org/check?uri=referer">
+            <img src="../images/one_button_validation_html5.png" alt="html button">
+        </a>
+        <script>document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        </script>
+        <a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="../images/one_button_validation_css.png" alt="html button">
+        </a>
+        <script>document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+     
+        </script>
+    </footer>
     
 </body>
 </html>
